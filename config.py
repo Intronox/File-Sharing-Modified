@@ -10,16 +10,16 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7295673972:AAHwgvFGbZaCaDMWzXiAha-MPcMqhYXmNvY")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6451061846:AAFNxweWerDfnDKGrWz8OXaNKyEt12jpgHs")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "20420188"))
+APP_ID = int(os.environ.get("APP_ID", "16510180"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "ac372bd945f5773afe0b714c6429039b")
+API_HASH = os.environ.get("API_HASH", "97d3a727651ab860c8f3a69d528f7018")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002121888464"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002014899669"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5743248220"))
@@ -28,17 +28,17 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5743248220"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://itsintrovert07:sanemibot@cluster0.zd1nrbm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://nksharmas9835:Guts03@cluster0.ys0t7tq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "sahil")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002335809216"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002004600395"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002004600395"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002282535782"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/f803e098ad3a03f542908.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/9550032a25a44b61ac017.jpg")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/W82.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/W8Q.jpg")
 
 HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Animes_Station\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻 Developed by <a href=https://t.me/living_being_bot>अजनबी</a></b>"
 
